@@ -1,12 +1,51 @@
-# React + Vite
+# 🎮 Memory Legends - A React Memory Card Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Memory Legends is a polished, fast-paced memory card game built with React. Players flip cards to find unique ones, testing their memory and speed. The game features dynamic scoring, difficulty levels, themes, and fun sound effects.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🧠 **Memory-based gameplay**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ – Flip cards and avoid duplicates!
+
+- 🎨 **Multiple themes** 
+
+– Dark and light themes with localStorage persistence.
+
+- 📈 **Score & Best Score tracking** 
+
+– Encourages replayability.
+
+- 🔊 **Sound effects** 
+
+– Flip, success, and game over.
+
+- 📱 **Responsive layout**
+
+ – Fully responsive on mobile and desktop.
+
+- 🔄 **Shuffling** 
+
+– Cards reshuffle after each valid move.
+
+- 💾 **Persistent data** 
+
+– Saves best score and theme between sessions.
+
+
+⚙️ Tech Stack
+
+React – UI library
+
+JavaScript – Logic and DOM interactions
+
+CSS / Tailwind – Styling (or pure CSS if used)
+
+HTML5 Audio API – For sound feedback
+
+Pokemon API -  For images  and labels
+
+LocalStorage API – For persistence
+
