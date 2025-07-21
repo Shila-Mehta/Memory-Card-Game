@@ -1,0 +1,22 @@
+/* src/styles/theme.css */
+
+[data-theme="light"] {
+  --bg-color: #f9fafb;
+  --text-color: #1f2937;
+  --card-color: #ffffff;
+  --accent-color: #3b82f6;
+}
+
+[data-theme="dark"] {
+  --bg-color: #464f5e;
+  --text-color: #807c7c;
+  --card-color: #334155;
+  --accent-color: #38bdf8;
+}
+
+[data-theme="fun"] {
+  --bg-color: #f7dde6;
+  --text-color: #6b21a8;
+  --card-color: #ffe4e6;
+  --accent-color: #ec4899;
+}
