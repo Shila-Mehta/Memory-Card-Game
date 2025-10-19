@@ -8,6 +8,20 @@ Memory Legends is a polished, fast-paced memory card game built with React. Play
 
 ## Screen shots
 
+<img width="2816" height="2130" alt="memory-card-game-nimra netlify app_ (1)" src="https://github.com/user-attachments/assets/515a2f3d-1513-487e-accb-45091e437ec3" />
+<img width="2816" height="2130" alt="memory-card-game-nimra netlify app_ (2)" src="https://github.com/user-attachments/assets/6a887d28-7c4d-41cf-972f-a155361d7a29" />
+<img width="2816" height="2130" alt="memory-card-game-nimra netlify app_ (3)" src="https://github.com/user-attachments/assets/afca0c78-9298-48fc-9d78-29cde76c40b5" />
+<img width="2816" height="2130" alt="memory-card-game-nimra netlify app_ (4)" src="https://github.com/user-attachments/assets/e685b7d9-eb47-4a55-babc-5852f387b74a" />
+<img width="2816" height="2130" alt="memory-card-game-nimra netlify app_ (5)" src="https://github.com/user-attachments/assets/0fc5a73b-9578-489d-a1db-93c79cdd27d3" />
+<img width="2816" height="2130" alt="memory-card-game-nimra netlify app_ (6)" src="https://github.com/user-attachments/assets/189b5eea-dddb-4fb9-a8b6-84a76d6b3c4b" />
+<img width="2816" height="2288" alt="memory-card-game-nimra netlify app_ (7)" src="https://github.com/user-attachments/assets/6a73967a-f302-4a1c-a1c1-4399811d4dc4" />
+
+
+
+
+
+
+
 
 
 
@@ -40,6 +54,13 @@ Memory Legends is a polished, fast-paced memory card game built with React. Play
 - 💾 **Persistent data** 
 
 – Saves best score and theme between sessions.
+
+-**Difficulty**:
+Easy- shows  4 cards
+Medium -shows 7 cards
+Hard- shows 10 cards 
+default- 3 cards
+
 
 
 ⚙️ Tech Stack
