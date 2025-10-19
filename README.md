@@ -4,6 +4,13 @@ Memory Legends is a polished, fast-paced memory card game built with React. Play
 
 ---
 
+## Live Demo (https://memory-card-game-nimra.netlify.app/)
+
+## Screen shots
+
+
+
+
 ## 🚀 Features
 
 - 🧠 **Memory-based gameplay**
@@ -41,11 +48,83 @@ React – UI library
 
 JavaScript – Logic and DOM interactions
 
-CSS / Tailwind – Styling (or pure CSS if used)
+Tailwind – Styling 
 
 HTML5 Audio API – For sound feedback
 
-Pokemon API -  For images  and labels
+Pokemon API(https://pokeapi.co/api/v2/pokemon) -  For images  and labels
 
 LocalStorage API – For persistence
 
+
+
+## Project Structure
+
+```
+└── 📁Memory Card Game
+        └── 📁public
+            ├── flipCard.mp3
+            ├── game over.mp3
+            ├── play.mp3
+            ├── score.png
+            ├── success.mp3
+            ├── vite.svg
+        └── 📁src
+            └── 📁assets
+                └── 📁images
+                ├── react.svg
+            └── 📁components
+                ├── Card.jsx
+                ├── GameBoard.jsx
+                ├── Header.jsx
+                ├── Modal.jsx
+                ├── statsBar.jsx
+                ├── ThemeSwitcher.jsx
+            └── 📁data
+                ├── difficulty.js
+            └── 📁hooks
+                ├── useBestScore.js
+                ├── useTheme.js
+                ├── useTimer.js
+            └── 📁pages
+                ├── GameMenu.jsx
+            └── 📁services
+                ├── GameStates.js
+            └── 📁styles
+                ├── theme.css
+            └── 📁utils
+                ├── fetchPokemonCards.js
+                ├── generateUniquePokemonIds.js
+                ├── handleFlip.js
+                ├── handleRestart.js
+                ├── handleStartFromMenu.js
+                ├── shuffleCards.js
+            ├── App.jsx
+            ├── index.css
+            ├── main.jsx
+        ├── .gitignore
+        ├── eslint.config.js
+        ├── index.html
+        ├── package-lock.json
+        ├── package.json
+        ├── postcss.config.cjs
+        ├── README.md
+        ├── tailwind.config.cjs
+        └── vite.config.js
+```
+
+
+
+👩‍💻 About Me
+
+I'm a front-end developer passionate about building polished, interactive web applications with a focus on user experience, performance, and clean architecture.
+
+📁 View more of my work on my portfolio(https://nimra-react-portfolio.netlify.app/)
+
+💼 Connect with me on LinkedIn (https://www.linkedin.com/feed/)
+
+
+Clone the repo
+git clone  https://github.com/Shila-Mehta/Memory-Card-Game.git
+
+cd Memory Card Game\my-react-app
